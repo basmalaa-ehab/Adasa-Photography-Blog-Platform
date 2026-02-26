@@ -1,0 +1,8 @@
+.card{
+      background-color: #161616bf ;
+
+}
+.card:hover h5.card-title {
+  color: #ff6400;
+}
+

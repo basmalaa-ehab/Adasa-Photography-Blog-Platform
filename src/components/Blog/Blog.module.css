@@ -1,0 +1,117 @@
+/* .fs16{
+    font-size: 1rem;
+}
+
+nav{
+  background-color: #161616;
+}
+
+.worldofadasa{
+  font-size: 12px;
+  font-weight: 400;
+  color: #ff8904cc;
+}
+
+.adasa{
+  font-size: 20px;
+  font-weight: 700;
+  color: whitesmoke;
+} */
+/* 
+.navLinksContainer {
+  display: flex;
+  gap: 1rem; 
+  padding: 0.5rem 1rem;
+  border-radius: 1.25rem; 
+  background-color: rgba(255,255,255,0.1); 
+  justify-content: center;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #ccc; 
+  font-weight: 500;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.navLink:hover {
+  background-color: #ffb700; 
+  color: #fff;
+}
+
+.active {
+  color: #ffb700;
+  font-weight: 700;
+} */
+
+
+.herocard{
+    background-color: #151414;
+    width: 156px;
+    height: 117px;
+    border-radius: 1.5rem;
+      border: #a1a1a1 solid 1px ;
+}
+
+.mtnavbar {
+  margin-top: 90px; 
+}
+
+
+.blog{
+     background-color: rgba(67, 40, 5, 0.3);
+  width: 130px;
+  height: 37px;
+  border: solid 1px #faa01e;
+}
+    
+.bg-light-orange-three {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  right: 40%;
+  top: 15%;
+  background: radial-gradient(
+    circle,
+    rgba(249, 154, 29, 0.138) 20%,
+    rgba(0, 0, 0, 0) 80%
+  );
+}
+
+.blogfsh1{
+font-size: 48px;
+}
+
+
+
+.active {
+  background-color: var(--main-color);
+  border-radius:16px;
+ width: 116px;
+ height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+}
+
+.searchicon{
+   left: 35px; 
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  color: #666;
+
+}
+
+.searchinput {
+  width: 320px ;
+  height: 49px;
+  background-color: #161616bf ;
+  border: none;
+}
+.searchinput:focus{
+ outline: solid 1px var(--main-color);
+}

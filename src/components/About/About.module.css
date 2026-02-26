@@ -1,0 +1,140 @@
+
+.herocard{
+    background-color: #151414;
+    width: 156px;
+    height: 117px;
+    border-radius: 1.5rem;
+      border: #a1a1a1 solid 1px ;
+}
+
+.mtnavbar {
+  margin-top: 90px; 
+}
+
+
+
+.active {
+  background-color: var(--main-color);
+  border-radius: 2.68435e7px;
+  width: 89px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+}
+
+.inspiration{
+ background: linear-gradient(90deg, #f97316, #ffb700); 
+ background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.fsh1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.aboutcard{
+    max-width: 254px;
+    height: 157px;
+        background-color: #151414;
+border-radius: 16px;
+        border: 1px solid #cccccc12;
+        transition: all 0.3s;
+} 
+.aboutcard:hover{
+    background-color: #2E2014;
+    outline: 1px solid #f9741663;
+}
+.seondsectionabout{
+    background-color: #151414;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    
+}
+
+.ourvalueh1{
+    font-size: 36px;
+}
+
+.fontgray{
+    color: #a1a1a1;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.numbericon {
+  position: relative;
+  display: inline-block;
+  width: 6px;
+  height: 30px;
+}
+
+.numbericon::before {
+  content: "";
+  position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%; 
+ background: linear-gradient(#ffb700 , #f97316);
+  border-radius: 2px;
+}
+
+.sectionthree{
+            background-color:black;
+
+}
+
+.imgabout{
+width: 120px;
+height: 120px;
+background-color: #ffb700;
+object-fit: cover;
+border: #a1a1a1 3px solid;
+
+}
+.checkicon{
+position: absolute;
+bottom:0;
+right: 20px;
+}
+.icon{
+    width: 22px;
+    height: 22px;
+    background-color: #f97316;
+    color: white;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    background-color: #161616;
+}
+.item{
+        outline: 1px solid #f9741663;
+
+}
+.brandicon{
+    background-color: #1616164a;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: transparent;
+  border: transparent 1px solid;
+}
+.brandicon:hover{
+    background-color: #404040;
+    height: 48px;
+    width: 48px;
+}
+
+a{
+    cursor: pointer;
+}

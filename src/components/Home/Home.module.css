@@ -1,0 +1,84 @@
+.herocard{
+    background-color: #151414;
+    width: 156px;
+    height: 117px;
+    border-radius: 1.5rem;
+      border: #a1a1a1 solid 1px ;
+}
+
+.mtnavbar {
+  margin-top: 90px; 
+}
+
+
+
+.active {
+  background-color: var(--main-color);
+  border-radius: 2.68435e7px;
+  width: 89px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+}
+
+.seondsectionabout{
+    background-color: #151414;
+ 
+    
+}
+
+
+.blog{
+     background-color: rgba(67, 40, 5, 0.3);
+  width: 130px;
+  height: 37px;
+  border: solid 1px #faa01e;
+  margin: 0 auto;
+}
+
+.aboutcard{
+  text-align: right !important;
+  width: 250px;
+  height: 165.6px;
+  background-color: #161616;
+    border: 1px solid rgba(108, 117, 125, 0.25);
+        border-radius: 1rem;
+  transition: background-color 0.3s ease;  position: relative;
+
+}
+.aboutcard:hover{
+  background: linear-gradient(to right , #FF7400 , #F7A000);
+  transform: translateY(-10px);
+}
+
+
+.categoryicon{
+  width: 40px;
+  height: 40px;
+    background-color: #2F1A0A;
+    padding: 6px;
+    border-radius: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 1rem;
+font-size: 18px !important;
+margin-bottom: 10px;
+
+}
+
+.aboutcard:hover .categoryicon{
+  background-color: #FCA633;
+}
+.aboutcard:hover .angleleft{
+  opacity: 1;
+}
+.angleleft{
+ background-color:#FCA633;
+  width: 33px ;
+  height: 33px;
+  color: white;
+ opacity: 0;
+}
